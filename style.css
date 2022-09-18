@@ -1,0 +1,82 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background-color:rgb(220, 219, 219);
+}
+header{/*Encabesado*/
+    background-color:rgb(22, 70, 108);
+    color: white;
+    font-size: large;
+    padding: 1.5rem 0;
+    box-shadow: 0 0.2rem 0.5rem black;
+}
+header article{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+header article img{/*imagen*/
+    border-radius: 6rem;
+}
+section article{/*cuerpo*/
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    background-color:white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.4rem black;
+}
+section article h2{
+    text-align: center;
+    font-size: 30px;
+}
+article ul{
+    list-style: none;
+    font-size: 25px;
+}
+section article img{/*imagen*/
+    width: 718px;
+    border-radius: 0.5rem;
+}
+.efect:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0.2rem 1rem black;
+    cursor: pointer;
+}
+#video{
+    margin-left: 3.3rem;
+    margin-bottom: 0.9rem;
+    border-radius: 0.5rem;
+}
+footer{/*Pie de pagina*/
+    background-color: black;
+    padding-top: 0.5rem;
+    color: white;
+}
+footer h2{
+    padding-left: 0.8rem;
+}
+a{
+    display: inline-block;
+    padding-left: 0.8rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 4px;
+}
+footer img{/*imagen*/
+    width: 50px;
+}
+footer a:hover{
+    color: blue;
+    transition: 0.5s ease;
+}
+#git{
+    width: 70px;
+    padding-left: 0.1rem;
+}
+
+ 
